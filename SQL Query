@@ -1,0 +1,982 @@
+CREATE TABLE neighborhood (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	borough INTEGER,
+	neighborhood TEXT,
+	building_class TEXT,
+	address TEXT,
+	zipcode INTEGER
+);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Alphabet City", "08 Rentals- Elevator Apts", "530-532 E 5th St", 10009);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Chelsea", "01 One Family Dwellings", "231 W 2nd St.", 10011);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Chinatown", "47 Condo non-business storage", "50 Franklin St.", 10013);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Civic Center", "07 Rentals- Walkup Apts", "41 White St.", 10013);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Clinton", "07 Rentals- Walkup Apts", "602 10th Ave", 10036);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "East Village", "02 Two Family Dwellings", "138 1 Ave", 1009);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Fashion", "07 Rentals- Walup Apts", "331 W 38th St.", 10018);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Financial", "08 Rentals- Elevator Apts", "63 Wall St.", 10005);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Flatiron", "08 Rentals- Elevator Apts", "9 E 16th St", 10003);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Gramercy", "02 Two Family Dwellings", "141 E 17th St.", 10003);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Greenwich Village-Central", "01 One Family Dwellings", "168 Thompson St", 10012);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Harlem-Central", "01 One Family Dwellings", "221 W 113 St.", 10026);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "Harlem-East", "01One Family Dwellings", "101B E 97Th St.", 10029);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "HARLEM-UPPER", "01 ONE FAMILY DWELLINGS", "465 WEST 141 STREET",10031);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "INWOOD", "01 ONE FAMILY DWELLINGS", "49 MARBLE HILL AVENUE",	10463);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "JAVITS CENTER", "02 TWO FAMILY DWELLINGS", "448 WEST 36TH STREET", 10018);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "KIPS BAY", "02 TWO FAMILY DWELLINGS", "313 EAST 18TH STREET", 10003);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "LITTLE ITALY", "01 ONE FAMILY DWELLINGS", "2 CENTRE MARKET PLACE", 10013);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "LOWER EAST SIDE", "02 TWO FAMILY DWELLINGS", "527 GRAND STREET", 10002);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "MANHATTAN VALLEY",	"03 THREE FAMILY DWELLINGS", "317 WEST 112 STREET", 10026);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "MIDTOWN CBD", "10 COOPS - ELEVATOR APARTMENTS", "470 PARK AVENUE, 11B", 10022);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "MIDTOWN EAST", "01 ONE FAMILY DWELLINGS", "213 EAST 48TH STREET", 10017);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "MIDTOWN WEST", "07 RENTALS - WALKUP APARTMENTS", "129 WEST 56TH STREET",	10019);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "MORNINGSIDE HEIGHTS", "07 RENTALS - WALKUP APARTMENTS", "3151 BROADWAY",	10027);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "MURRAY HILL", "01 ONE FAMILY DWELLINGS", "132 EAST 38TH STREET", 10016);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "ROOSEVELT ISLAND", "10 COOPS - ELEVATOR APARTMENTS", "40 RIVER ROAD", 10044);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "SOHO", "01 ONE FAMILY DWELLINGS", "40 SULLIVAN STREET", 10013);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "SOUTHBRIDGE", "08 RENTALS - ELEVATOR APARTMENTS", "165-167 WILLIAM STREET", 10038);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "TRIBECA", "09 COOPS - WALKUP APARTMENTS", "38 WHITE STREET, 2", 10013);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "UPPER EAST SIDE (59-79)", "01 ONE FAMILY DWELLINGS", "58 EAST 66TH STREET", 10065);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "UPPER EAST SIDE (96-110)", "43 CONDO OFFICE BUILDINGS", "65 EAST 96 ST",	10128);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "UPPER WEST SIDE (59-79)", "01 ONE FAMILY DWELLINGS", "43 WEST 73RD STREET", 10023);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "UPPER WEST SIDE (96-116)", "07 RENTALS - WALKUP APARTMENTS", "304 WEST 106 STREET", 10025);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "WASHINGTON HEIGHTS LOWER", "02 TWO FAMILY DWELLINGS", "953 ST.NICHOLAS AVE", 10032);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (1, "WASHINGTON HEIGHTS UPPER", "44 CONDO PARKING", "736 WEST 187 STREET", 10033);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "BATHGATE", "41 TAX CLASS 4 - OTHER", "1816 WEBSTER AVENUE", 10457);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "BAYCHESTER",	"01 ONE FAMILY DWELLINGS", "1144 EAST 213", 10469);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "BEDFORD PARK/NORWOOD", "33 EDUCATIONAL FACILITIES", "3600 JEROME AVENUE", 10467);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "BELMONT", "01 ONE FAMILY DWELLINGS ", "2463 HOFFMAN STREET",	10458);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "BRONX PARK", "02 TWO FAMILY DWELLINGS", "3200 WEBSTER", 10467);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "CASTLE HILL/UNIONPORT", "01 ONE FAMILY DWELLINGS", "453 OLMSTEAD AVENUE", 10473);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "CITY ISLAND",	"01 ONE FAMILY DWELLINGS", "90 HORTON STREET", 10464);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "CITY ISLAND-PELHAM STRIP", "01 ONE FAMILY DWELLINGS", "1450 ROOSEVELT AVENUE",	10803);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "CO-OP CITY",	"30 WAREHOUSES", "3295 MERRITT AVENUE", 10475);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "COUNTRY CLUB", "01 ONE FAMILY DWELLINGS", "1113 ELLSWORTH AVENUE",	10465);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "CROTONA PARK", "01 ONE FAMILY DWELLINGS", "1464 CROTONA PARK EAST", 10460);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "EAST RIVER",	"27 FACTORIES", "905 BRUSH AVENUE",	10465);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "EAST TREMONT", "01 ONE FAMILY DWELLINGS", "1893 CROTONA AVENUE", 10457);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "FIELDSTON",	"01 ONE FAMILY DWELLINGS", "4520 WALDO AVENUE",	10471);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "FORDHAM", "01 ONE FAMILY DWELLINGS", "2491 MARION AVE", 10458);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "HIGHBRIDGE/MORRIS HEIGHTS", "01 ONE FAMILY DWELLINGS", "1368 PLIMPTON AVENUE", 10452);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "HUNTS POINT", "01 ONE FAMILY DWELLINGS", "613 COSTER STREET", 10474);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "KINGSBRIDGE HTS/UNIV HTS", "01 ONE FAMILY DWELLINGS", "2410 GRAND AVENUE", 10468);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "KINGSBRIDGE/JEROME PARK", "01 ONE FAMILY DWELLINGS", "3828 SEDGWICK AVENUE", 10463);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "MELROSE/CONCOURSE", "01 ONE FAMILY DWELLINGS", "312 EAST 151 STREET", 10451);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "MORRIS PARK/VAN NEST", "01 ONE FAMILY DWELLINGS", "759 VAN NEST AVENUE",	10462);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "MORRISANIA/LONGWOOD", "01 ONE FAMILY DWELLINGS", "507 WEIHER COURT", 10456);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "MOTT HAVEN/PORT MORRIS",	"01 ONE FAMILY DWELLINGS", "460 EAST 134TH STREET", 10454);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "MOUNT HOPE/MOUNT EDEN",	"01 ONE FAMILY DWELLINGS", "232 MT. HOPE PLACE", 10457);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "PARKCHESTER", "01 ONE FAMILY DWELLINGS", "1841 CROSS BRONX EXPRESSW", 10460);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "PELHAM BAY",	"41 TAX CLASS 4 - OTHER", "HIGH ISLAND",	0);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "PELHAM GARDENS", "01 ONE FAMILY DWELLINGS", "1530 WARING AVENUE", 10469);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "PELHAM PARKWAY NORTH", "01 ONE FAMILY DWELLINGS", "2290 LACONIA AVENUE",	10469);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "PELHAM PARKWAY SOUTH", "01 ONE FAMILY DWELLINGS", "1829 TENBROECK AVENUE", 10461);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "RIVERDALE", "01 ONE FAMILY DWELLINGS", "555 WEST 227 STREET", 10463);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "SCHUYLERVILLE/PELHAM BAY", "01 ONE FAMILY DWELLINGS", "1650 MAYFLOWER AVENUE",	10461);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "SOUNDVIEW", "01 ONE FAMILY DWELLINGS", "212 UNDERHILL AVENUE", 10473);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "THROGS NECK", "01 ONE FAMILY DWELLINGS", "1007 LOGAN AVENUE", 10465);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "VAN CORTLANDT PARK", "10 COOPS - ELEVATOR APARTMENTS", "6035 BROADWAY, 8R", 10471);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "WAKEFIELD", "01 ONE FAMILY DWELLINGS", "670 EAST 236TH STREET", 10466);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "WESTCHESTER", "01 ONE FAMILY DWELLINGS", "2106 NEWBOLD AVENUE", 10462);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "WILLIAMSBRIDGE", "01 ONE FAMILY DWELLINGS", "3659 OLINVILLE AVE", 10467);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (2, "WOODLAWN", "01 ONE FAMILY DWELLINGS", "4218 HERKIMER PLACE",	10470);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BATH BEACH",	"01 ONE FAMILY DWELLINGS", "36 BAY 10TH STREET", 11228);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BAY RIDGE", "01 ONE FAMILY DWELLINGS ", "842 67TH STREET", 11220);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BEDFORD STUYVESANT", "01 ONE FAMILY DWELLINGS", "16 STUYVESANT AVENUE", 11221);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BENSONHURST", "01 ONE FAMILY DWELLINGS", "1944 65TH STREET", 11204);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BERGEN BEACH", "01 ONE FAMILY DWELLINGS", "1335 EAST 65TH STREET",	11234);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BOERUM HILL", "01 ONE FAMILY DWELLINGS", "79 BOND STREET", 11217);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BOROUGH PARK", "01 ONE FAMILY DWELLINGS", "1250 38TH STREET", 11218);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BRIGHTON BEACH", "01 ONE FAMILY DWELLINGS", "2848 BRIGHTON 4TH STREET", 11235);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BROOKLYN HEIGHTS",	"01 ONE FAMILY DWELLINGS", "31 MIDDAGH STREET",	11201);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BROWNSVILLE", "01 ONE FAMILY DWELLINGS", "35 HERZL STREET", 11212);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BUSH TERMINAL", "44 CONDO PARKING", "5418 3 AVENUE", 11220);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "BUSHWICK", "01 ONE FAMILY DWELLINGS", "129 TROUTMAN STREET", 11206);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "CANARSIE", "01 ONE FAMILY DWELLINGS", "124 EAST 89TH STREET", 11236);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "CARROLL GARDENS", "01 ONE FAMILY DWELLINGS", "3A 2ND PLACE",	11231);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "CLINTON HILL", "01 ONE FAMILY DWELLINGS", "155 WILLOUGHBY AVE", 11205);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "COBBLE HILL", "01 ONE FAMILY DWELLINGS", "361 HENRY ST", 11201);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "COBBLE HILL-WEST",	"01 ONE FAMILY DWELLINGS", "48 TIFFANY PLACE", 11231);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "CONEY ISLAND", "01 ONE FAMILY DWELLINGS", "2710 WEST 36TH STREET",	11224);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "CROWN HEIGHTS", "01 ONE FAMILY DWELLINGS", "589 WASHINGTON AVE", 11238);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "CYPRESS HILLS", "01 ONE FAMILY DWELLINGS", "36 MARGINAL ST WEST", 11207);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "DOWNTOWN-FULTON FERRY", "01 ONE FAMILY DWELLINGS", "55 PEARL STREET", 11201);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "DOWNTOWN-FULTON MALL", "01 ONE FAMILY DWELLINGS", "271 STATE STREET", 11201);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "DOWNTOWN-METROTECH", "03 THREE FAMILY DWELLINGS", "14 DUFFIELD STREET", 11201);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "DYKER HEIGHTS", "01 ONE FAMILY DWELLINGS", "6727 13TH AVENUE", 11219);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "EAST NEW YORK", "01 ONE FAMILY DWELLINGS", "549 SUTTER AVENUE", 11207);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "FLATBUSH-CENTRAL", "01 ONE FAMILY DWELLINGS", "292 PARKSIDE AVENUE", 11226);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "FLATBUSH-EAST", "01 ONE FAMILY DWELLINGS", "4705 CHURCH AVENUE", 11203);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "FLATBUSH-LEFFERTS GARDEN", "01 ONE FAMILY DWELLINGS", "59 STERLING STREET", 11225);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "FLATBUSH-NORTH", "01 ONE FAMILY DWELLINGS", "540 EMPIRE BOULEVARD", 11225);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "FLATLANDS", "01 ONE FAMILY DWELLINGS", "5028 KINGS HIGHWAY",	11234);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "FORT GREENE", "01 ONE FAMILY DWELLINGS", "139 CLERMONT AVENUE", 11205);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "GERRITSEN BEACH", "01 ONE FAMILY DWELLINGS", "3168 WHITNEY AVENUE", 11229);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "GOWANUS", "01 ONE FAMILY DWELLINGS", "452 BALTIC STREET", 11217);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "GRAVESEND", "01 ONE FAMILY DWELLINGS", "1575 WEST 9TH STREET", 11204);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "GREENPOINT",	"01 ONE FAMILY DWELLINGS", "190 KENT STREET", 11222);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "JAMAICA BAY", "29 COMMERCIAL GARAGES", "2859 FLATBUSH AVENUE", 11234);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "KENSINGTON",	"01 ONE FAMILY DWELLINGS", "63 CHESTER AVENUE",	11218);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "MADISON", "01 ONE FAMILY DWELLINGS", "1562 EAST 26TH STREET",11229);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "MANHATTAN BEACH", "01 ONE FAMILY DWELLINGS", "67 AMHERST STREET", 11235);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "MARINE PARK", "44 CONDO PARKING", "2083 EAST 38TH STREET", 11234);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "MIDWOOD", "01 ONE FAMILY DWELLINGS", "846 EAST 13TH STREET",	11230);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "MILL BASIN",	"41 TAX CLASS 4 - OTHER", "57 EAST MILL BASIN",	11234);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "NAVY YARD", "01 ONE FAMILY DWELLINGS", "46 CUMBERLAND STREET", 11205);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "OCEAN HILL",	"41 TAX CLASS 4 - OTHER", "1439 HERKIMER STREET", 11233);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "OCEAN PARKWAY-NORTH", "01 ONE FAMILY DWELLINGS", "406 EAST 2ND STREET", 11218);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "OCEAN PARKWAY-SOUTH", "47 CONDO NON-BUSINESS STORAGE", "400 AVENUE U", 11223);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "OLD MILL BASIN", "01 ONE FAMILY DWELLINGS", "5013 AVENUE M",	11234);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "PARK SLOPE",	"47 CONDO NON-BUSINESS STORAGE", "425 14TH STREET", 11215);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "PARK SLOPE SOUTH",	"01 ONE FAMILY DWELLINGS", "1672 8TH AVENUE", 11215);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "PROSPECT HEIGHTS",	"47 CONDO NON-BUSINESS STORAGE", "659 BERGEN STREET",	11238);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "RED HOOK", "01 ONE FAMILY DWELLINGS", "125 KING STREET", 11231);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "SEAGATE", "33 EDUCATIONAL FACILITIE", "4823 BEACH 48TH STREET", 11224);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "SHEEPSHEAD BAY", "01 ONE FAMILY DWELLINGS", "2158 EAST 12TH STREET", 11229);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "SPRING CREEK", "46 CONDO STORE BUILDINGS", "911 ERSKINE STREET", 11239);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "SUNSET PARK", "01 ONE FAMILY DWELLINGS", "212 18TH STREET", 11215);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "WILLIAMSBURG-CENTRAL", "47 CONDO NON-BUSINESS STORAGE", "290 HEYWARD STREET", 11206);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "WILLIAMSBURG-EAST", "01 ONE FAMILY DWELLINGS", "97 GERRY STREET", 11206);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "WILLIAMSBURG-NORTH", "49 CONDO WAREHOUSES/FACTORY/INDUS", "22 NORTH 6TH STREET", 11249);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "WILLIAMSBURG-SOUTH", "01 ONE FAMILY DWELLINGS", "169 SOUTH 9TH STREET", 11211);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "WINDSOR TERRACE", "47 CONDO NON-BUSINESS STORAGE", "11 TERRACE PLACE", 11218);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (3, "WYCKOFF HEIGHTS", "01 ONE FAMILY DWELLINGS", "1414 WILLOUGHBY AVE.", 11237);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "AIRPORT LA GUARDIA", "12 CONDOS - WALKUP APARTMENTS", "80-10 19TH AVENUE", 11370);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "ARVERNE", "01 ONE FAMILY DWELLINGS", "320 BEACH 41 STREET", 11691);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "ASTORIA", "47 CONDO NON-BUSINESS STORAGE", "23-11 21ST AVENUE", 11105);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "BAYSIDE", "01 ONE FAMILY DWELLINGS", "200-36 45TH AVENUE", 11361);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "BEECHHURST",	"10 COOPS - ELEVATOR APARTMENTS", "166-40 POWELLS COVE BLVD, 5A",	11357);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "BELLE HARBOR", "01 ONE FAMILY DWELLINGS", "512 BEACH 127", 11694);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "BELLEROSE", "29 COMMERCIAL GARAGES", "241-15 HILLSIDE AVENUE", 11426);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "BRIARWOOD", "01 ONE FAMILY DWELLINGS", "139-01 COOLIDGE AVENUE", 11435);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "CAMBRIA HEIGHTS", "22 STORE BUILDINGS", "221-15 LINDEN BOULEVARD",	11411);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "COLLEGE POINT", "01 ONE FAMILY DWELLINGS", "125-01 5TH AVENUE", 11356);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "CORONA", "46 CONDO STORE BUILDINGS", "37-28 98TH STREET", 11368);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "DOUGLASTON",	"01 ONE FAMILY DWELLINGS", "1 RICHMOND ROAD", 11363);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "EAST ELMHURST", "41 TAX CLASS 4 - OTHER", "111-16 ASTORIA BOULEVARD", 11369);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "ELMHURST", "01 ONE FAMILY DWELLINGS", "43-23 68TH STREET", 11377);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "FLORAL PARK", "22 STORE BUILDINGS", "260-21 HILLSIDE AVENUE", 11004);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "FLUSHING MEADOW PARK", "10 COOPS - ELEVATOR APARTMENTS", "76-35 113TH STREET, 4E", 11375);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "FLUSHING-NORTH", "47 CONDO NON-BUSINESS STORAGE", "41-02 DELONG STREET",	11355);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "FLUSHING-SOUTH", "01 ONE FAMILY DWELLINGS", "61-22 136 STREET", 11367);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "FOREST HILLS", "47 CONDO NON-BUSINESS STORAGE", "106-20 70TH AVENUE", 11375);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "FRESH MEADOWS", "01 ONE FAMILY DWELLINGS", "61-12 182ND STREET", 11365);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "GLEN OAKS", "29 COMMERCIAL GARAGES", "77-40 HEWLETT STREET",	11040);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "GLENDALE", "01 ONE FAMILY DWELLINGS", "74-26 64TH PLACE", 11385);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "HAMMELS", "44 CONDO PARKING", "260 BEACH 81 STREET", 11693);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "HILLCREST", "01 ONE FAMILY DWELLINGS", "141-19 81ST AVENUE",	11435);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "HOLLIS", "31 COMMERCIAL VACANT LAND", "211TH STREET",	NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "HOLLIS HILLS", "01 ONE FAMILY DWELLINGS", "80-69 209 STREET", 11427);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "HOLLISWOOD", "32 HOSPITAL AND HEALTH FACILITIES", "188-11 HILLSIDE AVENUE", 11423);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "HOWARD BEACH", "01 ONE FAMILY DWELLINGS", "155-16 77TH STREET", 11414);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "JACKSON HEIGHTS", "44 CONDO PARKING", "19-73 77TH STREET", 11370);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "JAMAICA", "01 ONE FAMILY DWELLINGS", "145-13 JAMAICA AVENUE", 11435);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "JAMAICA ESTATES", "44 CONDO PARKING", "180 WEXFORD TERRACE",	11432);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "JAMAICA HILLS", "01 ONE FAMILY DWELLINGS", "150-06 GRAND CENTRL PARKWAY", 11432);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "KEW GARDENS", "46 CONDO STORE BUILDINGS", "123-25 82ND AVENUE", 11415);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "LAURELTON", "01 ONE FAMILY DWELLINGS", "218-08 121ST AVENUE", 11411);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "LITTLE NECK", "31 COMMERCIAL VACANT LAND", "LITTLE NECK PARKWAY", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "LONG ISLAND CITY",	"01 ONE FAMILY DWELLINGS", "21-35 45TH AVENUE",	11101);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "MASPETH", "44 CONDO PARKING", "62-48 MT OLIVET CRESCENT", 11379);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "MIDDLE VILLAGE", "01 ONE FAMILY DWELLINGS", "73-15 58TH AVENUE", 11378);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "NEPONSIT", "05 TAX CLASS 1 VACANT LAND", "181 BEACH 143RD STREET",	11694);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "OAKLAND GARDENS", "01 ONE FAMILY DWELLINGS", "61-25 211TH STREET",	11364);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "OZONE PARK",	"48 CONDO TERRACES/GARDENS/CABANAS", "97-11 NORTH CONDUIT AVENUE", 11417);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "QUEENS VILLAGE", "01 ONE FAMILY DWELLINGS", "80-44 242ND STREET", 11426);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "REGO PARK", "46 CONDO STORE BUILDINGS", "92-29 QUEENS BOULEVARD", 11374);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "RICHMOND HILL", "01 ONE FAMILY DWELLINGS", "102-34 85TH AVENUE", 11418);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "RIDGEWOOD", "47 CONDO NON-BUSINESS STORAGE", "1980 STARR STREET", 11385);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "ROCKAWAY PARK", "01 ONE FAMILY DWELLINGS", "100-08 ROCKAWAY BEACH BLVD",	11694);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "ROSEDALE", "41 TAX CLASS 4 - OTHER", "138-31 247 STREET", 11422);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "SO. JAMAICA-BAISLEY PARK", "01 ONE FAMILY DWELLINGS", "114-20 141ST STREET", 11436);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "SOUTH JAMAICA", "41 TAX CLASS 4 - OTHER", "106-01 TUCKERTON STREET", 11433);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "SOUTH OZONE PARK",	"01 ONE FAMILY DWELLINGS", "109-17 111 STREET", 11420);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "SPRINGFIELD GARDENS", "32 HOSPITAL AND HEALTH FACILITIES", "130-20 FARMERS BOULEVARD", 11434);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "ST. ALBANS",	"01 ONE FAMILY DWELLINGS", "110-17 171ST PLACE", 11433);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "SUNNYSIDE",	"44 CONDO PARKING", "49-07 43RD AVENUE", 11377);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "WHITESTONE",	"01 ONE FAMILY DWELLINGS", "15-89 144TH STREET", 11357);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "WOODHAVEN", "30 WAREHOUSES", "100-17 ATLANTIC AVENUE",	11418);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (4, "WOODSIDE", "01 ONE FAMILY DWELLINGS", "25-67 50TH STREET", 11377);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ANNADALE", "46 CONDO STORE BUILDINGS", "885 ANNADALE ROAD", 10312);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ARDEN HEIGHTS", "01 ONE FAMILY DWELLINGS", "82 GARY STREET",	10312);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ARROCHAR", "29 COMMERCIAL GARAGES", "N/A CEDAR AVENUE", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ARROCHAR-SHORE ACRES", "01 ONE FAMILY DWELLINGS", "30 KEELEY STREET", 10305);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "BULLS HEAD",	"31 COMMERCIAL VACANT LAND", "1816-1826 FOREST AVENUE", 10303);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "CASTLETON CORNERS", "01 ONE FAMILY DWELLINGS", "175 RAYMOND PLACE", 10310);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "CLOVE LAKES", "29 COMMERCIAL GARAGES", "N/A FOREST AVENUE", 10310);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "CONCORD", "01 ONE FAMILY DWELLINGS", "319 GORDON STREET", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "CONCORD-FOX HILLS", "04 TAX CLASS 1 CONDOS", "15 MOSEL AVENUE", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "DONGAN HILLS", "01 ONE FAMILY DWELLINGS", "64 TACOMA STREET", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "DONGAN HILLS-COLONY", "21 OFFICE BUILDINGS", "1005 RICHMOND ROAD",	10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "DONGAN HILLS-OLD TOWN", "02 TWO FAMILY DWELLINGS", "50 WHITNEY AVENUE", 10305);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ELTINGVILLE", "01 ONE FAMILY DWELLINGS", "4608 AMBOY ROAD", 10312);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "EMERSON HILL", "05 TAX CLASS 1 VACANT LAND", "LITTLE CLOVE ROAD", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "FRESH KILLS", "01 ONE FAMILY DWELLINGS", "12 MAZZA COURT", 10312);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "GRANT CITY",	"01 ONE FAMILY DWELLINGS", "258 FLAGG PLACE", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "GREAT KILLS", "01 ONE FAMILY DWELLINGS", "7C REVERE LANE", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "GREAT KILLS-BAY TERRACE", "01 ONE FAMILY DWELLINGS", "30 CHESTERTON AVENUE", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "GRYMES HILL", "13 CONDOS - ELEVATOR APARTMENTS", "755 NARROWS ROAD NORTH", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "HUGUENOT", "01 ONE FAMILY DWELLINGS", "476 STAFFORD AVENUE", 10312);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "LIVINGSTON",	"09 COOPS - WALKUP APARTMENTS", "158 BARD AVE, 7B", 10310);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "MANOR HEIGHTS", "01 ONE FAMILY DWELLINGS", "2 TOWNLEY AVENUE", 10314);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "MARINERS HARBOR", "41 TAX CLASS 4 - OTHER", "GRANITE AVENUE", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "MIDLAND BEACH", "01 ONE FAMILY DWELLINGS", "375 LIBERTY AVENUE", 10305);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "NEW BRIGHTON", "41 TAX CLASS 4 - OTHER", "MONTGOMERY AVENUE", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "NEW BRIGHTON-ST. GEORGE", "07 RENTALS - WALKUP APARTMENTS", "62 WALL STREET", 10301);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "NEW DORP", "31 COMMERCIAL VACANT LAND", "100 NEW DORP PLAZA", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "NEW DORP-BEACH", "01 ONE FAMILY DWELLINGS", "29 MILTON AVENUE", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "NEW DORP-HEIGHTS", "21 OFFICE BUILDINGS", "2487 RICHMOND ROAD", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "NEW SPRINGVILLE", "01 ONE FAMILY DWELLINGS", "55 CONRAD AVENUE", 10314);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "OAKWOOD", "01 ONE FAMILY DWELLINGS", "42 FARRELL COURT", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "OAKWOOD-BEACH", "05 TAX CLASS 1 VACANT LAND", "N/A TARLTON STREET", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "PLEASANT PLAINS", "01 ONE FAMILY DWELLINGS", "741 JOHNSTON TERRACE", 10309);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "PORT IVORY",	"31 COMMERCIAL VACANT LAND",  "N/A DOLSON PLACE", 10303);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "PORT RICHMOND", "01 ONE FAMILY DWELLINGS", "37 PORT RICHMOND AVENUE", 10302);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "PRINCES BAY", "22 STORE BUILDINGS", "61 SEGUINE AVENUE", 10309);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "RICHMONDTOWN", "01 ONE FAMILY DWELLINGS", "65 MC CULLY AVENUE", 10306);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "RICHMONDTOWN-LIGHTHS HILL", "05 TAX CLASS 1 VACANT LAND", "EDINBORO ROAD", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ROSEBANK", "01 ONE FAMILY DWELLINGS", "248 EDGEWATER STREET", 10305);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ROSSVILLE",	"31 COMMERCIAL VACANT LAND", "N/A VETERANS ROAD WEST", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ROSSVILLE-CHARLESTON", "01 ONE FAMILY DWELLINGS", "19 LUNDSTEN AVENUE",	10309);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "ROSSVILLE-RICHMOND VALLEY", "31 COMMERCIAL VACANT LAND", "PAGE AVENUE", NULL);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "SILVER LAKE", "01 ONE FAMILY DWELLINGS", "142 OXFORD PLACE",	10301);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "SOUTH BEACH", "37 RELIGIOUS FACILITIES", "207 SAND LANE", 10305);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "STAPLETON", "01 ONE FAMILY DWELLINGS", "219 VAN DUZER STREET", 10301);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "STAPLETON-CLIFTON", "03 THREE FAMILY DWELLINGS", "66 VANDERBILT AVENUE", 10304);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "SUNNYSIDE", "01 ONE FAMILY DWELLINGS", "116 HIGHLAND AVENUE", 10301);
+INSERT INTO neighborhood (borough, neighborhood, building_class, address, zipcode) VALUES (5, "TODT HILL", "33 EDUCATIONAL FACILITIES", "715 OCEAN TERRACE", 10301);
+
+
+
+
+
+
+CREATE TABLE info ( 
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	neighborhood_id INTEGER,
+	residential_units INTEGER,
+	commercial_units INTEGER,
+	total_units INTEGER,
+	land_square_ft INTEGER,
+	gross_square_ft INTEGER,
+	year_built INTEGER
+);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (1, 10, NULL, 10, 317, 12350, 2009);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (2, 1, NULL, 1, 1588, 5653, 1900);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (3, NULL, NULL, 1, NULL, NULL, 2007);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (4, 7, 1, 8, 2633, 12000, 1915);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (5, 14, 1, 15, 2217, 9475, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (6, 2, 1, 3, 1200, 3360, 1900);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (7, 16, 2, 18, 2475, 9690, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (8, 476, 6, 482, 17623, 400531, 1929);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (9, 15, 1, 16, 4600, 30680, 1900);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (10, 2, 1, 3, 2300, 6720, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (11, 1, 1, 2, 1350, 5807, 1900);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (12, 1, NULL, 1, 1682, 2727, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (13, 1, NULL, 1, 847, 1472, 1925);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (14, 1, NULL, 1, 1799, 6264, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (15, 1, NULL, 1, 1219, 1224, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (16, 2, 1, 3, 2469, 4747, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (17, 2, NULL, 2, 1840, 2880, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (18, 1, NULL, NULL, 1016, 3700, 1800);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (19, 2, 1, 3, 1238, 3714, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (20, 3, NULL, 3, 1682, 3333, 1900);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (21, NULL, NULL, NULL, NULL, NULL, 1916);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (22, 1, Null, 1, 1665, 3060, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (23, 8, 1, 9, 2092, 8180, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (24, 21, 2, 23, 4158, 16377, 1905);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (25, 1, NULL, 1, 495, 1920, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (26, NULL, NULL, NULL, NULL, NULL, 1975);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (27, 1, NULL, 1, 2100,  4607, 2015);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (28, 12, 1, 13, 3480, 31073, 1908);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (29, NULL, NULL, NULL, NULL, NULL, 1915);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (30, 1, NULL, 1, 2008, 9600, 1922);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (31, NULL, NULL, 1, NULL, NULL, 1924);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (32, 1, NULL, 1, 2146, 6485, 1910); 
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (33, 10, NULL, 10, 1716, 5810, 1900);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (34, 2, NULL, 2, 1070, 1656, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (35, NULL, NULL, 1, NULL, NULL, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (36, NULL, NULL, NULL, 3082, NULL, NULL); 
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (37, 1, NULL, 1, 1785, 1018, 1945);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (38, 0, 1, 1, 29275, 79275, 1929);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (39, 1, 0, 1, 1606, 1324, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (40, 2, NULL, 2, 2029, 4197, 1915);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (41, 1, NULL, 1, 1980, 1594, 1965);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (42, 1, NULL, 1, 5601, 2324, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (43, 1, NULL, 1, 2940, 1420, 1955);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (44, NULL, 1, 1, 10000, 9900, 1999);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (45, 1, NULL, 1, 2470, 1890, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (46, 1, NULL, 1, 1761, 1152, 1989);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (47, NULL, 1, 1, 77835, 20000, 1974);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (48, 1, NULL, 1, 2715, 1936, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (49, 1, NULL, 1, 7000, 2113, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (50, 1, NULL, 1, 1910, 1922, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (51, 1, NULL, 1, 1900, 1000, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (52, 1, NULL, 1, 2500, 1438, 1925); 
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (53, 1, NULL, 1, 1353, 1710, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (54, 1, NULL, 1, 2580, 2226, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (55, 1, NULL, 1, 2958, 1984, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (56, 1, NULL, 1, 2850, 1948, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (57, 1, NULL, 1, 695, 1152, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (58, 1, NULL, 1, 1700, 2380, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (59, 1, NULL, 1, 1951, 1450, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (60, 1, NULL, 1, 6900, 2193, 1955);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (61, NULL, 1, 1, 340000, 4300, 1961);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (62, 1, NULL, 1, 4800, 2178, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (63, NULL, 1, 1, 340000, 4300, 1961);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (64, 1, NULL, 1, 4800, 2178, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (65, 1, NULL, 1, 3153, 2688, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (66, 1, NULL, 1, 5000, 2800, 1925);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (67, 1, NULL, 1, 7175, 2700, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (68, 1, NULL, 1, 2375, 1452, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (69, 1, NULL, 1, 1824, 710, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (70, 1, NULL, 1, 2500, 1140, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (71, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (72, 1, NULL, 1, 2060, 1732, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (73, 1, NULL, 1, 2119, 1960, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (74, 1, NULL, 1, 4750, 1620, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (75, 1, NULL, 1, 2500, 1397, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (76, 1, NULL, 1, 1547, 1428, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (77, 1, NULL, 1, 2000, 1905, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (78, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (79, 1, NULL, 1, 2060, 1732, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (80, 1, NULL, 1, 2119, 1960, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (81, 1, NULL, 1, 4750, 1620, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (82, 1, NULL, 1, 2500, 1397, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (83, 1, NULL, 1, 1547, 1428, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (84, 1, NULL, 1, 2000, 1905, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (85, 1, NULL, 1, 2000, 2400, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (86, 1, NULL, 1, 2500, 1600, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (87, 1, NULL, 1, 7200, 1026, 1925);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (88, 1, NULL, 1, 1211, 4289, 2015);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (89, 1, NULL, 1, 2284, 1252, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (90, 1, NULL, 1, 1860, 810, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (91, 1, NULL, 1, 1020, 1626, 1847);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (92, 1, 1, 2, 2000, 3600, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (93, NULL, NULL, 1, NULL, NULL, 2012);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (94, 1, NULL, 1, 2500, 1500, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (95, 1, NULL, 1, 2400, 1724, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (96, 1, NULL, 1, 1279, 2880, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (97, 1, NULL, 1, 1190, 2520, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (98, 1, NULL, 1, 1743, 4860, 2013);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (99, 1, NULL, 1, 2101, 1784, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (100, 1, NULL, 1, 2275, 1520, 1970);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (101, 1, 1, 2, 1015, 2190, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (102, 1, NULL, 1, 2500, 1180, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (103, 1, 1, 2, 965, 3676, 2014);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (104, 1, NULL, 1, 1590, 4296, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (105, 3, 0, 3, 1953, 3016, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (106, 1, 1, 2, 1200, 2000, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (107, 1, 1, 2, 1200, 1350, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (108, 1, NULL, 1, 1615, 1684, 1905);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (109, 1, 2, 3, 2192, 1920, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (110, 1, NULL, 1, 2083, 1360, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (111, 1, NULL, 1, 1858, 1800, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (112, 1, NULL, 1, 1120, 1524, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (113, 1, NULL, 1, 3000, 2320, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (114, 1, NULL, 1, 1440, 868, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (115, 1, NULL, 1, 700, 1440, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (116, 1, NULL, 1, 2000, 1352, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (117, 1, NULL, 1, 1250, 1440, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (118, NULL, 1, 1, 110303, NULL, 2016);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (119, 1, NULL, 1, 1564, 1410, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (120, 1, NULL, 1, 3000, 1984, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (121, 1, NULL, 1, 4000, 4730, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (122, NULL, NULL, 0, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (123, 1, NULL, 1, 2000, 1540, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (124, NULL, NULL, NULL, 10400, 1650, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (125, 1, NULL, 1, 1250, 1260, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (126, NULL, NULL, NULL, 2183, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (127, 1, NULL, 1, 2500, 1572, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (128, NULL, NULL, 1, NULL, NULL, 2009);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (129, 1, NULL, 1, 2253, 1088, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (130, NULL, NULL, 1, NULL, NULL, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (131, 1, NULL, 1, 944, 1020, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (132, NULL, NULL, 1, NULL, NULL, 2008);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (133, 1, NULL, 1, 1680, NULL, 2016);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (134, NULL, 1, 1, 8000, 7000, 1925);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (135, 1, NULL, 1, 2280, 1380, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (136, NULL, 1, 1, NULL, NULL, 2017);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (137, 1, NULL, 1, 1669, 1700, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (138, NULL, NULL, 1, NULL, NULL, 2011);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (139, 1, 1, 2, 2500, 5800, 1968);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (140, NULL, NULL, 1, NULL, NULL, 2007);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (141, 1, 1, 2, 1858, 6155, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (142, NULL, NULL, 1, NULL, NULL, 2006);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (143, 1, NULL, 1, 1800, 1224, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (144, 1, NULL, 1, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (145, 1, NULL, 1, 2469, 1476, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (146, NULL, NULL, 1, NULL, NULL, 2008);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (147, 1, NULL, 1, 4000, 1092, 1955);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (148, NULL, NULL, NULL, NULL, NULL, 1958);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (149, 1, NULL, 1, 3500, 1794, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (150, NULL, 1, 1, 10000, 2745, 1957);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (151, 1, NULL, 1, 4558, 1480, 1935);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (152, NULL, 2, 2, 3745, 2557, 1952);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (153, 1, NULL, 1, 2000, 1648, 1925);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (154, NULL, NULL, 1, NULL, NULL, 1989);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (155, 1, NULL, 1, 17700, 6800, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (156, NULL, NULL, NULL, 10035, NULL, 1980);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (157, 1, NULL, 1, 2500, 1328, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (158, NULL, 2, 2, 2000, 1600, 1937);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (159, NULL, NULL, NULL, NULL, NULL, 1941);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (160, NULL, NULL, 1, NULL, NULL, 2014);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (161, 1, NULL, 1, 3242, 1900, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (162, NULL, NULL, 1, NULL, NULL, 2015);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (163, 1, NULL, 1, 5600, 1719, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (164, NULL, 1, 1, 13250, 2700, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (165, 1, NULL, 1, 2000, 1342, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (166, NULL, NULL, 1, NULL, NULL, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (167, 1, NULL, 1, 5580, 1888, 1955);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (168, NULL, NULL, NULL, 1751, NULL, NULL); 
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (169, 1, NULL, 1, 4000, 1240, 1940);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (170, NULL, 1, 1, 25224, 18786, 2000);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (171, 1, NULL, 1, 5040, 1210, 1945);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (172, NULL, NULL, 1, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (173, 1, 1, 2, 2349, 1209, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (174, NULL, NULL, 1, NULL, NULL, 1986);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (175, 1, NULL, 1, 2075, 1280, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (176, 1, NULL, 1, 4950, 1040, 1945);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (177, NULL, NULL, NULL, 13, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (178, 1, NULL, 1, 2000, 3120, 1881);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (179, NULL, NULL, 1, NULL, NULL, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (180, 1, NULL, 1, 1843, 2189, 1955);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (181, NULL, NULL, NULL, 6000, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (182, 1, NULL, 1, 5000, 1414, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (183, NULL, NULL, 1, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (184, 1, NULL, 1, 3649, 832, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (185, NULL, NULL, 1, NULL, NULL, 1986);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (186, 1, NULL, 1, 2400, 1417, 1905);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (187, NULL, NULL, 1, NULL, NULL, 2008);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (188, 1, NULL, 1, 960, 420, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (189, NULL, NULL, NULL, 5000, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (190, 1, NULL, 1, 2000, 896, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (191, NULL, NULL, NULL, 5000, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (192, 1, NULL, 1, 2000, 896, 1920);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (193, NULL, NULL, NULL, 29000, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (194, 1, NULL, 1, 3068, 1460, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (195, NULL, NULL, 1, NULL, NULL, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (196, 1, NULL, 1, 1476, 1584, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (197, NULL, 1, 1, 4000, 4000, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (198, 1, NULL, 1, 1800, 1400, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (199, NULL, NULL, 1, NULL, NULL, 1975);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (200, 1, NULL, 1, 2700, 1700, 1998);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (201, NULL, NULL, NULL, 5388, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (202, 1, NULL, 1, 742, 1200, 1994);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (203, 1, 1, 2, 18300, NULL, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (204, 1, NULL, 1, 2850, 1463, 1925);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (205, NULL, NULL, NULL, 3421, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (206, 1, NULL, 1, 1200, 1060, 2004);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (207, 1, NULL, 1, NULL, NULL, 2008);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (208, 1, NULL, 1, 4000, 1480, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (209, NULL, 1, 1, 6650, 984, 1915);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (210, 2, NULL, 2, 3125, 1376, 2004);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (211, 1, NULL, 1, 4278, 1170, 1950);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (212, NULL, NULL, NULL, 4820, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (213, 1, NULL, 1, 1552, 1124, 1996);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (214, 1, NULL, 1, 10764, 1570, 1980);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (215, 1, NULL, 1, 936, 960, 1986);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (216, 1, NULL, 1, 5000, 1100, 1960);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (217, 1, NULL, 1, NULL, NULL, 1987);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (218, 1, NULL, 1, 4000, 1859, 1980);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (219, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (220, 1, NULL, 1, 12750, 2477, 1980);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (221, NULL, NULL, NULL, 2900, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (222, 1, NULL, 1, 2600, 1840, 1995);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (223, NULL, NULL, NULL, 2125, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (224, 7, NULL, 7, 4478, 3600, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (225, NULL, NULL, NULL, 7500, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (226, 1, NULL, 1, 3333, 875, 1910);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (227, NULL, 4, 4, 11300, 6500, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (228, 1, NULL, 1, 2625, 1800, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (229, 1, NULL, 1, 1436, 1200, 1994);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (230, NULL, NULL, NULL, 2000, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (231, 1, NULL, 1, 6441, 5500, 2010);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (232, NULL, NULL, NULL, 9890, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (233, 1, 2, 3, 2900, 2900, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (234, 2, 2, 4, 21783, 3726, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (235, 1, NULL, 1, 6272, 2154, 1985);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (236, NULL, NULL, NULL, 9102, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (237, 1, NULL, 1, 1412, 1232, 1996);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (238, NULL, NULL, NULL, 298, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (239, 1, NULL, 1, 4596, 2150, 2005);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (240, NULL, NULL, NULL, 297790, NULL, NULL);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (241, 1, NULL, 1, 4466, 1937, 1930);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (242, 0, 1, 1, 18000, 7987, 1931);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (243, 1, NULL, 1, 2726, 864, 1899);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (244, 3, NULL, 3, 5000, 2672, 1901);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (245, 1, NULL, 1, 5135, 940, 1959);
+INSERT INTO info (neighborhood_id, residential_units, commercial_units, total_units, land_square_ft, gross_square_ft, year_built) VALUES (246, NULL, 1, 1, 3146, 3146, 1976);
+
+
+
+
+CREATE TABLE sales(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	neighborhood_id INTEGER,
+	tax_class_time_of_sale TEXT,
+	building_class TEXT,
+	sale_price INTEGER,
+	sale_date TEXT
+
+);
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (1, 2, "D1", 10350000, "2016-10-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (2, 1, "A4", 10, "2017-01-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (3, 4, "RS", null, "2017-05-18");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (4, 2, "C7", 141500000, "2017-07-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (5, 2, "C7", NULL, "2016-11-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (6, 1, "S2", 3000000, "2017-08-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (7, 2, "C4", NULL, "2016-12-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (8, 2, "D5", 239114603, "2016-09-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (9, 2, "D6", NULL, "2017-01-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (10, 1, "S2", 5300000, "2017-08-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (11, 1, "S1", 9999999, "2016-11-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (12, 1, "A4", NULL, "2016-12-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (13, 1, "A9", NULL, "2017-03-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (14, 1, "A9", NULL, "2016-12-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (15, 1, "A5", 635000, "2017-08-18");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (16, 1, "S2", 6100000, "2017-01-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (17, 1, "B9", 4600000, "2016-09-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (18, 1, "A4", 7090000, "2017-03-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (19, 1, "S2", NULL, "2017-14-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (20, 1, "C0", 3075000, "2017-20-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (21, 2, "D4", 2000000, "2016-11-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (22, 1, "A4", 5000000, "2017-02-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (23, 2, "C7", NULL, "2016-12-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (24, 2, "C7", NULL, "2016-09-21"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (25, 1, "A4", 3850000, "2017-07-10"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (26, 2, "D4", 4127983, "2016-11-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (27, 1, "A7", NULL, "2017-07-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (28, 2, "D5", 19000000, "2017-02-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (29, 2, "C8", 3700000, "2017-04-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (30, 1, "A7", 24175000, "2017-02-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (31, 4, "R8", NULL, "2017-01-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (32, 1, "A4", 15500000, "2017-01-12");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (33, 2, "C4", 4550000, "2017-08-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (34, 1, "B3", 700000, "2017-01-25");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (35, 4, "RG", NULL, "2016-09-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (36, 4, "Z9", 300000, "2016-11-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (37, 1, "A5", 325000, "2017-01-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (38, 4, "W4", 7375000, "2016-10-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (39, 1, "A5", 450000, "2017-06-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (40, 1, "B2", 560000, "2016-11-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (41, 1, "A5", 373000, "2016-09-26");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (42, 1, "A1", 1030000, "2016-09-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (43, 1, "A2", 736000, "2016-10-18");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (44, 4, "E1", NULL, "2017-03-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (45, 1, "A5", 400000, "2017-01-26");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (46, 1, "A5", 285000, "2017-02-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (47, 4, "F1", 11200000, "2017-04-11");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (48, 1, "A1", 695000, "2017-08-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (49, 1, "A1", 1386800, "2017-08-08");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (50, 1, "A9", 249000, "2017-02-08");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (51, 1, "A5", 355000, "2017-02-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (52, 1, "A1", 345112, "2016-10-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (53, 1, "A9", 350000, "2016-12-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (54, 1, "A1", 600000, "2017-05-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (55, 1, "A9", 250000, "2016-09-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (56, 1, "A1", 350000, "2016-10-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (57, 1, "A5", 370000, "2016-12-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (58, 1, "A5", 500000, "2017-06-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (59, 1, "A1", 580000, "2017-07-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (60, 1, "A1", NULL, "2017-04-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (61, 4, "Z9", 10, "2016-09-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (62, 1, "A1", 575000, "2016-12-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (63, 1, "A2", NULL, "2016-11-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (64, 1, "A1", 785000, "2017-06-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (65, 1, "A3", NULL, "2017-04-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (66, 1, "A1", 404250, "2017-04-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (67, 1, "A2", 110000, "2017-01-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (68, 1, "A2", 335000, "2017-09-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (69, 2, "D4", 145000, "2017-08-24");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (70, 1, "A5", 365000, "2016-11-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (71, 1, "A5", 420000, "2016-10-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (72, 1, "A1", 395000, "2017-03-16");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (73, 1, "A1", 455000, "2016-09-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (74, 1, "A5", 800000, "2017-02-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (75, 1, "A5", 980000, "2017-06-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (76, 1, "A9", NULL, "2017-02-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (77, 1, "A5", 850000, "2017-01-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (78, 1, "A2", 500000, "2016-12-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (79, 1, "A5", 4400000, "2017-02-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (80, 1, "A9", 850000, "2017-05-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (81, 1, "A2", NULL, "2017-03-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (82, 1, "A9", 2675000, "2017-06-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (83, 1, "S1", NULL, "2017-05-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (84, 4, "RP", NULL, "2016-12-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (85, 1, "A9", 1290000, "2016-09-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (86, 1, "A5", NULL, "2107-01-12");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (87, 1, "A5", 3200000, "2017-08-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (88, 1, "A4", 2695000, "2016-10-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (89, 1, "A4", 6400000, "2016-09-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (90, 1, "A1", 2490000, "2016-18-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (91, 1, "A5", NULL, "2016-09-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (92, 1, "S1", 1100000, "2016-09-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (93, 1, "A9", 490000, "2017-03-15"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (94, 1, "S1", NULL, "2017-07-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (95, 1, "A5", 3995000, "2017-08-11");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (96, 1, "C0", 2025000, "2017-06-05");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (97, 1, "S1", 980000, "2016-09-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (98, 1, "S1", NULL, "2017-05-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (99, 1, "A5", 1427329, "2017-01-25");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (100, 1, "S0", NULL, "2017-02-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (101, 1, "A4", 1335000, "2016-09-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (102, 1, "A9", NULL, "2016-10-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (103, 1, "A5", 160000, "2017-04-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (104, 1, "A1", 10, "2016-12-29");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (105, 1, "A9", 375000, "2016-11-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (106, 1, "A9", 750000, "2016-09-29");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (107, 1, "A9", 750000, "2016-29-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (108, 1, "A9", 1300000, "2017-04-12");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (109, 4, "G8", 10, "2017-08-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (110, 1, "A1", 975000, "2017-03-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (111, 1, "A1", 1182500, "2017-07-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (112, 1, "A1", 2267500, "2016-11-29");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (113, 4, "RP", NULL, "2016-09-29"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (114, 1, "A5", NULL, "2016-11-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (115, 4, "ZP", NULL, "2017-05-11");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (116, 1, "A9", NULL, "2017-04-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (117, 4, "Z9", NULL, "2016-12-21"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (118, 1, "A1", 1100000, "2016-09-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (119, 4, "RS", 5000, "2016-12-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (120, 1, "A1", NULL, "2017-07-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (121, 4, "RS", NULL, "2017-01-25");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (122, 1, "A5", NULL, "2017-03-22"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (123, 4, "RS", NULL, "2016-10-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (124, 1, "A5", 2725000, "2017-08-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (125, 4, "W2", 1200000, "2017-05-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (126, 1, "A1", NULL, "2017-02-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (127, 4, "RK", NULL, "2017-01-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (128, 1, "A5", 1720000, "2017-05-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (129, 4, "R5", 25000, "2017-05-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (130, 1, "S1", NULL, "2016-10-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (131, 4, "RW", NULL, "2016-10-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (132, 1, "S1", NULL, "2016-11-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (133, 4, "RS", NULL, " 2016-10-24");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (134, 1, "A5", NULL, "2017-06-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (135, 2, "R2", 329000, "2016-11-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (136, 1, "A1", 369046, "2016-10-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (137, 4, "RS", NULL, "2017-06-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (138, 1, "A2", 830000, "2017-05-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (139, 2, "D4", 270000, "2017-03-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (140, 1, "A0", 426000, "2017-03-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (141, 4, "G4", 2300000, "2016-11-16");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (142, 1, "A2", 700000, "2017-06-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (143, 4, "K1", NULL, "2016-12-08");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (144, 1, "A1", 490000, "2017-08-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (145, 4, "RK", NULL, "2017-05-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (146, 1, "A3", 4000000, "2017-05-24");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (147, 4, "Z9", NULL, "2017-01-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (148, 1, "A1", 665000, "2017-05-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (149, 4, "K1", 450000, "2017-08-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (150, 2, "D4", 300000, "2016-11-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (151, 4, "RS", NULL, "2017-05-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (152, 1, "A5", NULL, "2017-02-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (153, 4, "RS", NULL, "2017-01-10”");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (154, 1, "A2", 1350000, "2017-06-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (155, 4, "G4", NULL, "2016-09-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (156, 1, "A1", 500000, "2017-05-08");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (157, 4, "RP", NULL, "2017-05-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (158, 1, "A2", NULL, "2016-09-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (159, 4, "V1", 60076, "2017-08-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (160, 1, "A1", 815000, "2017-04-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (161, 4, "I5", 9150000, "2017-03-29");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (162, 1, "A2", 260000, "2017-05-05");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (163, 4, "RP", NULL, "2017-05-26");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (164, 1, "S1", NULL, "2017-08-24");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (165, 4, "RP", NULL, "2016-09-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (166, 1, "A5", 470000, "2016-10-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (167, 4, "RK", NULL, "2017-06-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (168, 1, "A2", 352750, "2016-09-29");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (169, 4, "V1", NULL, "2017-05-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (170, 1, "A5", NULL, "2017-07-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (171, 4, "RP", NULL, "2017-04-25");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (172, 1, "A5", 770000, "2016-10-26");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (173, 1, "V0", NULL, "2017-08-11");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (174, 1, "A2", 1100000, "2017-05-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (175, 4, "RT", NULL, "2017-03-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (176, 1, "A2", 425000, "2017-07-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (177, 4, "RK", 380000, "2016-09-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (178, 1, "A1", 580000, "2017-01-30"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (179, 4, "RS", NULL, "2017-01-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (180, 1, "A6", 110000, "2017-05-16");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (181, 4, "Z9", NULL, "2016-09-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (182, 1, "A1", 190000, "2016-09-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (183, 4, "Z4", NULL, "2016-10-11");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (184, 1, "A1", 345000, "2017-01-26");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (185, 4, "I5", 3100000, "2017-01-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (186, 1, "A5", 150000, "2017-03-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (187, 4, "RG", NULL, "2107-04-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (188, 1, "A5", 720000, "2017-06-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (189, 4, "E1", NULL, "2017-05-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (190, 1, "A5", 431040, "2017-02-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (191, 4, "RK", 575000, "2017-08-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (192, 1, "A5", 530000, "2017-02-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (193, 4, "G7", NULL, "2017-02-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (194, 1, "A5", 239304, "2016-11-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (195, 4, "V1", 1800000, "2016-10-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (196, 1, "A1", 579000, "2017-05-23");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (197, 4, "G7", NULL, "2016-11-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (198, 1, "A5", NULL, "2017-02-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (199, 1, "R3", 140000, "2017-07-27");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (200, 1, "A1", 650000, "2017-04-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (201, 4, "O1", 530000, "2017-01-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (202, 1, "B9", 625000, "2016-09-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (203, 1, "A2", NULL, "2016-10-14");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (204, 1, "V0", 299000, "2017-06-07"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (205, 1, "A5", 309003, "2016-12-20");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (206, 1, "A3", 1090000, "2017-01-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (207, 1, "A9", 318000, "2016-12-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (208, 1, "A2", NULL, "2017-04-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (209, 2, "R4", 300000, "2017-05-18");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (210, 1, "A1", NULL, "2017-01-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (211, 2, "C6", 182000, "2017-07-18");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (212, 1, "A1", 815000, "2016-04-03");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (213, 4, "Z9", 180000, "2016-11-08");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (214, 1, "A5", NULL, "2017-12-05");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (215, 4, "Z9", 290000, "2017-03-22");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (216, 2, "C1", NULL, "2017-02-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (217, 4, "V1", NULL, "2016-11-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (218, 1, "A1", NULL, "2017-02-13");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (219, 4, "O5", 1600000, "2017-01-31");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (220, 1, "A5", NULL, "2017-04-11");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (221, 1, "A5", 418000, "2016-09-07");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (222, 1, "V0", NULL, "2016-09-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (223, 1, "A1", 12150000, "2017-05-05");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (224, 4, "V1", NULL, "2017-03-02");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (225, 1, "S0", 395000, "2017-03-01");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (226, 4, "K4", 1550000, "2017-03-30");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (227, 1, "A1", 825800, "2016-09-16");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (228, 1, "V0", 400000, "2017-04-24");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (229, 1, "A5", 535000, "2017-28-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (230, 4, "V1", NULL, "2017-02-28");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (231, 1, "A1", 715000, "2016-11-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (232, 4, "V1", NULL, "2016-12-06");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (233, 1, "A1", 590000, "2016-10-17");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (234, 4, "M1", 1150000, "2017-05-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (235, 1, "A1", 370000, "2017-08-10");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (236, 1, "C0", 625000, "2016-10-26"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (237, 1, "A2", NULL, "2017-08-02"); 
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (238, 4, "W9", NULL, "2016-12-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (239, 1, "A2", 659000, "2017-05-15");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (240, 4, "M1", NULL, "2016-11-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (241, 1, "A5", 445000, "2016-11-09");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (242, 4, "Z9", NULL, "2016-10-04");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (243, 1, "A2", NULL, "2017-05-24");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (244, 4, "RG", NULL, "2017-06-19");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (245, 1, "A1", 640000, "2016-09-21");
+INSERT INTO sales (neighborhood_id, tax_class_time_of_sale, building_class, sale_price, sale_date) VALUES (246, 4, "P9", 69300, "2016-10-27");
+
+---------------------------------------Important Info------------------------------------
+
+/* a borough is a number given to the following area Manhattan (1),
+ Bronx (2), Brooklyn (3), Queens (4), and Staten Island (5). */
+
+
+---------------------------------------------Queries-------------------------------------
+
+/*ELaborate what borough means in this dataset*/
+SELECT 
+	COUNT(borough),
+CASE
+	WHEN borough = 5 THEN "Staten Island"
+	WHEN borough = 4 THEN "Queens"
+	WHEN borough = 3 THEN "Brooklyn"
+	WHEN borough = 2 THEN "Bronx"
+	WHEN borough = 1 THEN "Manhattan"
+END AS Area
+FROM 
+	neighborhood
+ORDER BY borough DESC;
+
+
+/* How many neighborhoods in total are in this dataset? */
+
+SELECT
+	neighborhood
+FROM
+	neighborhood;
+
+/* The most common building class in NY at the time */
+
+SELECT 
+	building_class,
+	address
+FROM
+	neighborhood
+ORDER BY 
+	building_class;
+
+/*I want to see how many residential units and how many commercial units are in this data set */
+SELECT 
+	COUNT(residential_units) AS residential_units, 
+	COUNT(commercial_units) AS commerical_units
+FROM
+	info;
+
+/* I want to see if there is a corelation between sqft and the year built
+One including NULL values and one without */
+
+SELECT 
+	land_square_ft,
+	gross_square_ft,
+	year_built
+FROM
+	info
+ORDER by year_built DESC;
+
+SELECT 
+	land_square_ft,
+	gross_square_ft,
+	year_built
+FROM
+	info
+ORDER by year_built DESC
+WHERE 
+	year_built IS NOT NULL;
+
+/* I want to see the prices of all the poperty sales in this dataset */
+
+SELECT
+	n.borough,
+	n.address,
+	s.sale_price
+FROM 
+	neighborhood AS n
+INNER JOIN 
+	sales AS s
+ON
+	n.id=s.neighborhood_id
+ORDER BY
+	s.sale_price DESC
+
+/* This is query doesn't neccesarly mean that the property didn't sell for nothing
+but that the owners gave their property ownership to the next of kin */
+
+SELECT
+	n.borough,
+	n.address,
+	s.sale_price
+FROM 
+	neighborhood AS n
+INNER JOIN 
+	sales AS s
+ON
+	n.id=s.neighborhood_id
+WHERE 
+	s.sale_price IS NULL;
+
+/*I am comparing how many people "give away" their land and those who bought it */
+
+SELECT 
+	COUNT(sale_price) AS sale_price
+FROM
+	sales
+WHERE 
+	sale_price IS NOT NULL;
+
+
+SELECT 
+	SUM(CASE 
+	   WHEN sale_price IS NULL THEN 1 
+	   ELSE 0 
+	   END) AS given_away
+FROM
+	sales
+WHERE 
+	sale_price IS NULL;
+
+
+
+/* This query is looking at the tax class of all available transactions that took place */
+
+SELECT 
+	(tax_class_time_of_sale) AS tax_class,
+	COUNT(tax_class_time_of_sale) AS total
+FROM 
+	sales
+GROUP BY
+ 	tax_class_time_of_sale;
+
+
+/* Which Zipcode has the most expensive sales?
+
+SELECT
+	n.zipcode,
+	s.sale_price
+FROM
+	neighborhood AS n
+INNER JOIN 
+	sales as s
+ON
+	n.id=s.neighborhood_id
+ORDER BY
+	s.sale_price DESC
+LIMIT 15;
+
+/* What type of building class sells the most */
+
+SELECT 
+	building_class,
+	COUNT(building_class) AS total
+FROM 
+	sales
+GROUP BY 
+    building_class
+
+/*When do properties sell the most */
+SELECT 
+	n.neighborhood,
+	n.address,
+	s.sale_date
+FROM
+	neighborhood AS n
+INNER JOIN
+	sales AS s
+ON
+	n.id=s.neighborhood_id
+GROUP BY
+	s.sale_date
+
+/* I want to compare the land square feet and price */
+
+SELECT 
+	i.land_square_ft,
+	s.sale_price
+FROM 
+	info AS i
+INNER JOIN
+	sales AS s
+ON
+	i.neighborhood_id=s.neighborhood_id
+ORDER BY
+	sale_price DESC;
+
+/* This is the gross square ft and price */
+
+SELECT 
+	i.gross_square_ft,
+	s.sale_price
+FROM 
+	info AS i
+INNER JOIN
+	sales AS s
+ON
+	i.neighborhood_id=s.neighborhood_id
+ORDER BY
+	sale_price DESC;
+
+/*I want to see if a buildings age affects the price */
+
+SELECT 
+	i.year_built,
+	s.sale_price
+FROM
+	info AS i
+INNER JOIN
+	sales AS s
+ON
+	i.neighborhood_id=s.neighborhood_id
+ORDER BY
+	sale_price DESC
+
+
